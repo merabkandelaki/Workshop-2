@@ -1,0 +1,143 @@
+body {
+    height: auto;
+    background-color: #FFF;
+    line-height: 1.2;
+}
+
+.container__header {
+    padding: 32px 0 0 40px;
+    margin-bottom: 118px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__img {
+    width: 130px;
+    height: 64px;
+    margin-bottom: 51px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu__list-link {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.link__contact {
+    color: #F50808;
+}
+
+.link__home, .link__about {
+    color: #2414DB;
+}
+
+.container__contact {
+    margin: 0 auto;
+    max-width: 322px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 118px;
+    background-color: rgba(212, 30, 242, 0.12);
+    gap: 35px;
+}
+
+h2 {
+    color: #1B24F4;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+p {
+    color: #000;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+span {
+    color: #0D69A9;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container__footer {
+    padding: 0 0 32px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social__img {
+    width: 60px;
+    height: 60px;
+}
+
+/* media query */
+
+@media (max-width: 768px) {
+    .container__header {
+        padding: 22px 0 0 30px;
+        margin-bottom: 100px;
+    }
+
+    .menu__list {
+        gap: 9px;
+    }
+
+    .menu__list-link {
+        font-size: 15px;
+    }
+
+    .logo__img {
+        width: 104px;
+        height: 51px;
+        margin-bottom: 30px;
+    }
+
+    .container__contact {
+        margin-bottom: 100px;
+        gap: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .container__footer {
+        padding: 0 45px 22px 30px;
+        gap: 15px;
+    }
+
+    .social__img {
+        width: 45px;
+        height: 45px;
+    }
+}
